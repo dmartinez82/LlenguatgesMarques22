@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Formulari de registre</h1>
+
+    <form action="./formulari.html" method="get">
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="escriu el teu email" required>
+
+            <label for="passwd">Password:</label>
+            <input type="password" name="passwd" id="passwd" placeholder="escriu el teu password" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="nom">Nom: </label>
+            <input type="text" name="nom" id="nom" placeholder="escriu el teu nom aquí" required maxlength="50">
+
+            <label for="llin1">Primer llinatge:</label>
+            <input type="text" name="llin1" id="llin1" placeholder="escriu el teu llin1 aquí" required>
+
+            <label for="llin2">Segon llinatge:</label>
+            <input type="text" name="llin2" id="llin2" placeholder="escriu el teu llin2 aquí">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dataNaix">Data de naixement:</label>
+            <input type="date" name="dataNaix" id="dataNaix" required>
+        </div>
+
+        <br>
+
+        <div>
+            <span>Sexe:</span>
+            <input type="radio" name="sexe" id="sexeHome" required value="H"><label for="sexeHome"> Home </label>
+            <input type="radio" name="sexe" id="sexeDona" required value="D"><label for="sexeDona"> Dona </label>
+            <input type="radio" name="sexe" id="sexeAltres" required value="A"><label for="sexeAltres">Altres</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="color">Tria el teu color favorit:</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" name="termes" id="termes" required>
+            <label for="termes">Acceptes els termes i condicions del nostre servei?</label>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Envia">
+            <input type="reset" value="Esborra">
+        </div>
+
+        <br>
+
+        <hr>
+
+        <!--Extra -->
+
+        <div>
+            <label for="kebab">Quants de kebabs t'has menjat aquest mes?</label>
+            <input type="number" name="kebab" id="kebab" max="50" min="0">
+
+            
+            <input type="range" name="" id="" max="4000" min="0">
+        </div>
+
+
+    </form>
+
+
+</body>
+
+</html>
