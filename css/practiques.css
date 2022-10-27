@@ -1,0 +1,36 @@
+section{
+    color: green;
+    background-color: blanchedalmond;
+    width: 75%;
+}
+
+/*comentari */
+
+span{
+    color: yellowgreen;
+}
+
+#pWeb{
+    color: brown;
+}
+
+.vermell{
+    color: red;
+}
+
+.subrajat{
+    text-decoration: underline;
+}
+
+h2, h3{
+    background-color: rgb(174, 165, 85);
+    color: rgba(38, 38, 220, 0.299) !important;
+}
+
+h3{
+    width: 25%;
+}
+
+section p{
+    text-decoration: underline;
+}
