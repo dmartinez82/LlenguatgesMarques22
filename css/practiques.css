@@ -11,7 +11,7 @@ span{
 }
 
 #pWeb{
-    color: brown;
+    color: blue;
 }
 
 .vermell{
@@ -33,4 +33,46 @@ h3{
 
 section p{
     text-decoration: underline;
+}
+
+*{
+    color: pink;
+}
+
+h2+h3{
+    border: 2px solid black;
+}
+
+#perrito{
+    border: 3px solid black;
+    /*padding: 10px 20px 30px 50px;*/
+    padding: 30px;
+
+}
+
+#contenidorImatge{
+    margin: 20px auto;
+    width: 50%;
+}
+
+#pare, #fill1, #fill2{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#pare{
+    border-color: red;
+    width: 50%;
+}
+
+#fill1{
+    border-color: blue;
+    width: 45%;
+    float: left;
+}
+
+#fill2{
+    border-color: yellow;
+    width: 45%;
+    float: right;
 }

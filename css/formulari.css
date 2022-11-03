@@ -1,0 +1,30 @@
+input[required]{
+    background-color: lightsalmon;
+}
+
+input[type="text"]{
+    border: 3px solid black;
+}
+
+input[type="radio"]:checked {
+    border: 1px solid black;
+    color: red;
+    margin: 50px;
+ }
+
+ h1:hover{
+    color:red;
+ }
+
+ h1::first-letter{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+ }
+
+ .sexe label:nth-of-type(3){
+    color: blue;
+ }
+
+ input[type="submit"], input[type="reset"], span, label, .vermell{
+    font-weight: bolder;
+ }
