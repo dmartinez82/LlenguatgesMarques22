@@ -46,12 +46,13 @@ h2+h3{
 #perrito{
     border: 3px solid black;
     /*padding: 10px 20px 30px 50px;*/
-    padding: 30px;
-
+    padding: 5%;
+    width: 90%;
+    max-width: 100%;
 }
 
 #contenidorImatge{
-    margin: 20px auto;
+    margin: 2% auto;
     width: 50%;
 }
 
@@ -75,4 +76,47 @@ h2+h3{
     border-color: yellow;
     width: 45%;
     float: right;
+}
+
+h1{
+    font-size: 25px;
+}
+
+span.separat{
+    display: block;
+    padding-top: 50px;
+}
+
+h6{
+    margin: 0 auto;
+    width: 60%;
+    color: red;
+    text-align: center;
+}
+
+.banner{
+    background-image: url("../img/playa.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-position: center;
+    height: 100px ;
+}
+
+nav li{
+    color: red;
+    display: inline-block;
+    width: 20%;
+    border: 2px solid gray;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+body{
+    padding-top: 35px;
 }
