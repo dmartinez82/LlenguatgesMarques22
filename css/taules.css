@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap');
+
+:root {
+    --vermell: rgb(173, 99, 25);
+    --amplada: 90%;
+  }
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    width: var(--amplada);
+    border: 1px solid black;
+  }
+
+
+#home{
+    color: var(--vermell);
+}
+
+.vermell{
+    background-color: var(--vermell);
+}
